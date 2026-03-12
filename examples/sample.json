@@ -1,0 +1,37 @@
+{
+  "shifts": [
+    "M",
+    "T"
+  ],
+  "employees": [
+    {
+      "freeDays": 1,
+      "name": "Empleado 0"
+    },
+    {
+      "freeDays": 0,
+      "name": "Empleado 1"
+    }
+  ],
+  "planningHorizon": 2,
+
+  "satisfaction": [
+    { "shift": 0, "employee": 0, "day": 0, "value": 5 },
+    { "shift": 1, "employee": 0, "day": 0, "value": 2 },
+    { "shift": 0, "employee": 1, "day": 0, "value": 3 },
+    { "shift": 1, "employee": 1, "day": 0, "value": 8 },
+
+    { "shift": 0, "employee": 0, "day": 1, "value": 4 },
+    { "shift": 1, "employee": 0, "day": 1, "value": 7 },
+    { "shift": 0, "employee": 1, "day": 1, "value": 6 },
+    { "shift": 1, "employee": 1, "day": 1, "value": 1 }
+  ],
+
+  "requiredEmployees": [
+    { "shift": 0, "day": 0, "value": 1 },
+    { "shift": 1, "day": 0, "value": 1 },
+
+    { "shift": 0, "day": 1, "value": 1 },
+    { "shift": 1, "day": 1, "value": 1 }
+  ]
+}
